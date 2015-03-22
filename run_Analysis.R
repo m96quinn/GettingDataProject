@@ -1,6 +1,6 @@
-run_Analysis <- function(){
+run_analysis <- function(){
 
-	##library(dplyr)
+	library(dplyr)
 
 	## Read in training data set
 	trainingFile <- read.csv("train/X_train.txt", head= FALSE, sep="")
